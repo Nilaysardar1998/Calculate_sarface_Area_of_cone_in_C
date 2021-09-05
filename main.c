@@ -13,7 +13,10 @@ int main() {
     printf("\nArea of Cone: %.2lf", surface_area);
 
     double volume = (1.0/3) * pie * radius * radius * height;
-    printf("\nVolume of a cone: %.2lf", volume);
+    printf("\nVolume of a Cone: %.2lf", volume);
+
+    double curved_surface_area = pie * radius * height;
+    printf("\nCurved Surface Area of Cone: %.2lf", curved_surface_area);
 
     return 0;
 }
