@@ -1,2 +1,4 @@
+#Updated...!!!
 # Calculate_sarface_Area_of_cone_in_C
-Calculate area of cone in c language 
+# Now
+<<Calculate area and volume of cone in c language>>
