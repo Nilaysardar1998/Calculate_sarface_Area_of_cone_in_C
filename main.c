@@ -9,7 +9,11 @@ int main() {
     printf("\nEnter the Height of Cone: ");
     scanf_s("%f", &height);
 
-    double surface_area =  pie * radius *(radius + sqrtf(radius * radius + height * height));
+    double surface_area =  pie * radius *(radius + sqrtf(height * height + radius * radius));
     printf("\nArea of Cone: %.2lf", surface_area);
+
+    double volume = (1.0/3) * pie * radius * radius * height;
+    printf("\nVolume of a cone: %.2lf", volume);
+
     return 0;
 }
